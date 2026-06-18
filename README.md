@@ -1,4 +1,4 @@
-# 🔐 SnowBe Online — Enterprise Security Plan
+# SnowBe Online — Enterprise Security Plan
 
 > A comprehensive information security plan developed for a fictional e-commerce company preparing to go public, covering access control, encryption, compliance, risk management, and more.
 
