@@ -104,9 +104,9 @@ The plan includes **30+ policies, standards, and procedures** spanning:
 
 ## 📄 Documents
 
-[View Full Security Plan (PDF)](./Security_Plan.pdf)
+[View full security plan (PDF)](./Security_Plan.pdf)
 
-[View Case Study (PDF)](./Case_Study.pdf)
+[View case study (PDF)](./Case_Study.pdf)
 
 
 ---
