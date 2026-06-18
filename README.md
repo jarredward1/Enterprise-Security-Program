@@ -104,7 +104,7 @@ The plan includes **30+ policies, standards, and procedures** spanning:
 
 ## 📄 Document
 
-[📥 View Full Security Plan (PDF)](./Security_Plan.pdf)
+[View Full Security Plan (PDF)](./Security_Plan.pdf)
 
 ---
 
@@ -117,5 +117,4 @@ The plan includes **30+ policies, standards, and procedures** spanning:
 ## 👤 Author
 
 **Jarred Ward**  
-Cybersecurity Student · CYB3841  
-[LinkedIn](#) · [GitHub](#)
+[LinkedIn](https://www.linkedin.com/in/jarredward1/)
