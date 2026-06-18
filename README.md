@@ -1,14 +1,14 @@
-# SnowBe Online — Enterprise Security Plan
+# Enterprise Security Program
 
-> A comprehensive information security plan developed for a fictional e-commerce company preparing to go public, covering access control, encryption, compliance, risk management, and more.
+> A comprehensive information security program developed for a fictional e-commerce company preparing to go public, covering access control, encryption, compliance, risk management, and more.
 
 ---
 
 ## 📌 Overview
 
-SnowBe Online is a growing e-commerce and retail company handling sensitive customer data including PII, credit card information, and order histories. As the company scales toward an IPO, this security plan establishes the formal policies, standards, and procedures needed to protect its digital and physical assets.
+SnowBe Online is a growing e-commerce and retail company handling sensitive customer data including PII, credit card information, and order histories. As the company scales toward an IPO, this security program establishes the formal policies, standards, and procedures needed to protect its digital and physical assets.
 
-This project simulates a real-world security planning engagement — identifying roles and responsibilities, defining policy controls, and aligning with industry compliance frameworks.
+This project simulates a real-world security planning engagement. This includes identifying roles and responsibilities, defining policy controls, and aligning with industry compliance frameworks.
 
 ---
 
@@ -34,12 +34,23 @@ This project simulates a real-world security planning engagement — identifying
 
 ## 📂 Scope
 
-This plan covers all employees, contractors, vendors, and third-party partners who access SnowBe systems. It applies to:
+This program covers all employees, contractors, vendors, and third-party partners who access SnowBe systems. It applies to:
 
 - Corporate office environments
 - Retail point-of-sale locations
 - AWS-hosted cloud infrastructure
 - Remote access and mobile endpoints
+
+---
+
+## 🏛️ Document Hierarchy
+
+This repository follows a standard governance hierarchy. Each level gets more specific and changes more often:
+
+- **Plan** — the overarching security strategy
+- **Policies** — high-level rules stating *what* must happen and *why*, mapped to NIST 800-53 controls
+- **Standards** — the specific, measurable requirements that enforce the policies
+- **Procedures** — the step-by-step instructions to carry the requirements out
 
 ---
 
@@ -61,33 +72,38 @@ The plan establishes 11 security roles with clearly defined responsibilities:
 
 ---
 
-## 📋 Policy Areas Covered
+## 📁 Repository Contents
 
-The plan includes **30+ policies, standards, and procedures** spanning:
+### Plan
 
-### Access Control (AC)
-`AC-02` Account Management · `AC-03` Access Enforcement · `AC-04` Information Flow · `AC-05/06` Separation of Duties & Least Privilege · `AC-07` Login Attempt Limits · `AC-17` Remote Access · `AC-18` Wireless Access · `AC-19` Mobile Devices
+- [Enterprise Security Plan](./Security_Plan.pdf) — the overarching security strategy for SnowBe Online
+- [Case Study](./Case_Study.pdf) — supporting case study
 
-### Identity & Authentication (IA)
-`IA-02` Organizational User Authentication · `IA-05` Authenticator Management · `MFA` enforcement across all systems
+### Policies
 
-### System & Communications Protection (SC)
-`SC-07` Boundary Protection · `SC-13` Cryptographic Protection · `SC-28` Encryption at Rest
+| Policy | Control |
+|--------|---------|
+| [Separation of Duties & Least Privilege](./Policies/Separation_of_Duties%20and_Least_Privilege_Policy.pdf) | `AC-5 & AC-6` |
+| [Device Lock & Session Termination](./Policies/Device_Lock_and%20Session_Termination_Policy.pdf) | `AC-11 & AC-12` |
+| [Change Control Management](./Policies/Change_Control_Management_Policy.pdf) | `CCM-03` |
+| [Data Retention & Disposal](./Policies/Data_Retention_and%20Disposal_Policy.pdf) | `DR-01` |
+| [Security Maturity](./Policies/Security_Maturity%20Policy.pdf) | `SM-01` |
+| [Software Patch Management](./Policies/Software_Patch_Management_Policy.pdf) | `SPM-01` |
+| [System Development Life Cycle](./Policies/System_Development_Life_Cycle_Policy.pdf) | `SDLC-01` |
+| [Vulnerability Management](./Policies/Vulnerability_Management_Policy.pdf) | `VM-01` |
 
-### Risk & Vulnerability Management
-`RAM-01` Risk Assessment & Management · `VM-01` Vulnerability Management · `SPM-01` Patch Management
+### Standards
 
-### Cloud & Infrastructure
-`CC-01` Cloud Configuration · `CCM-03` Change Control Management · `SI-07` Software Integrity
+| Standard | Control |
+|----------|---------|
+| [Password Standard](./Standards/Password_Standard.pdf) | `PWS-04` |
 
-### Data & Backup
-`CP-09` System Backup · `DBR-01` Data Backup & Recovery · `DR-01` Data Retention & Disposal · `MP-06` Media Sanitization · `SR-12` Component Disposal
+### Procedures
 
-### Compliance & Governance
-`PC-01` PCI DSS · `SM-01` Security Maturity · `VMN-01` Vendor Management · `ED-01` Security Training
-
-### Standards & Procedures
-`ACP-03` New Account Creation · `PWS-04` Password Standard · `LPP-04` Linux Password Procedure · `WPP-04` Windows Password Procedure
+| Procedure | Control |
+|-----------|---------|
+| [New Account Creation Procedure](./Procedures/New_Account_Creation_Procedure.pdf) | `ACP-03` |
+| [Linux Password Procedure](./Procedures/Linux_Password%20Procedure.pdf) | `LPP-04` |
 
 ---
 
@@ -99,15 +115,6 @@ The plan includes **30+ policies, standards, and procedures** spanning:
 | 2.0 | 11/10/2025 | Added Access Controls |
 | 3.0 | 11/17/2025 | Added Encryption Controls |
 | 4.0 | 03/29/2026 | Added Various Policies (current) |
-
----
-
-## 📄 Documents
-
-[View full security plan (PDF)](./Security_Plan.pdf)
-
-[View case study (PDF)](./Case_Study.pdf)
-
 
 ---
 
