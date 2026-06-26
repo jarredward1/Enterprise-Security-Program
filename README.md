@@ -1,5 +1,7 @@
 # Enterprise Security Program: Policies, Standards & Procedures (NIST SP 800-53, PCI DSS)
 
+<img width="1734" height="907" alt="enterprise2" src="https://github.com/user-attachments/assets/51724459-0ad7-43e5-94d7-5707bc8bfff3" />
+
 > A full information security program for a fictional e-commerce company preparing for IPO, structured as a governance hierarchy of a plan, policies, standards, and procedures mapped to NIST SP 800-53 and aligned with PCI DSS.
 
 ---
